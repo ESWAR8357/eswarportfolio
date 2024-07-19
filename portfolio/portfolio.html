@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+        <script type="text/javascript">
+
+            function Display(langType)
+
+            {
+
+                if (langType == 'C')
+
+                {                    
+
+                    document.getElementById("divLanguage").innerHTML = "<b> C is a logical language! </b><br /> The C language is a high-level, general-purpose programming language.<br/> It provides a straightforward, consistent, powerful interface for programming<br/> systems. That's why the C language is widely used for developing<br/> system software, application software, and embedded systems. <br /> ";
+                }
+
+                if (langType == 'Java')
+
+                {                    
+
+                    document.getElementById("divLanguage").innerHTML = "<b>Java is a logical language!</b><br/>Java is a multi-platform, object-oriented, and network-centric language <br/>that can be used as a platform in itself. It is a fast, secure, reliable programming<br/> language for coding everything from mobile apps and enterprise <br/>software to big data applications and server-side technologies.<br />";
+
+                }
+                
+                if (langType == 'hcj')
+                {
+                    document.getElementById("divLanguage").innerHTML ="<b>HTML, CSS, and JavaScript are the basic languages to create a website.</b><br/><ul><li><b>Create the structure with HTML</b><br/>The   first thing you have to learn, is HTML, which is the standard markup<br/> language for creating web pages.</li><li><b>Style with CSS </b><br/>The next step is to learn CSS, to set the layout of your web page with<br/> beautiful colors, fonts, and much more.</li><li><b>Make it interactive with JavaScript</b><br/>. After studying HTML and CSS, you should learn JavaScript <br/>to create dynamic and interactive web pages for your users.</li></ul>";
+
+                }
+                if (langType == 'Python')
+
+                {                    
+
+                    document.getElementById("divLanguage").innerHTML = "<b> Python is a versatile and powerful language </b><br />Python is a high-level, general-purpose programming language<br/>. Its design philosophy emphasizes code readability with the use of<br/> significant indentation. Python is dynamically typed and garbage-collected.<br/> It supports multiple programming paradigms, including structured <br/>(particularly procedural), object-oriented and functional programming.<br/> It is often described as a batteries included language due <br/>to its comprehensive standard library <br /> ";
+                }
+                if(langType == 'ai')
+                {                    
+
+                    document.getElementById("divLanguage").innerHTML = "<b>ARTIFICIAL INTELLIGENCE</b><br />Artificial intelligence, or AI, is technology that enables computers <br/>and machines to simulate human intelligence and problem-solving capabilities. <br /> ";
+                }
+            }
+
+        </script>
+
+    <header>
+
+        <div>
+
+            <a href="index.html"><img src="my_photo.jpg" alt="" width="50px" height="50px;"></img></a>
+
+            <span style="font-size: 60px; color: darkviolet;">E</span>swar
+
+        </div>
+
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About</a>
+
+            <a href="portfolio.html">Portfolio</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        <a href="letstalk.html" class="btn-talk">Let's Talk</a>
+
+    </header>
+
+
+
+    <section class="home">
+
+        <div class="content">
+
+        <span style="font-weight: bold; color: purple;">
+
+        MY SKILLS
+
+        </span>
+
+        <br>
+        
+        <img src="c.jpeg" alt="" width="150px" height="150px;" onmouseover="Display('C');"></img>
+
+        <img src="java.jpeg" alt="" width="150px" height="150px;" onmouseover="Display('Java');"></img>
+
+        <img src="js_css_html.jpeg" alt="" width="150px" height="150px;" onmouseover="Display('hcj');"></img>
+
+        <img src="python.jpeg" alt="" width="150px" height="150px;"onmouseover="Display('Python');" ></img>
+
+        <img src="php.jpeg" alt="" width="150px" height="150px;"></img>
+
+        <img src="ai.jpeg" alt="" width="150px" height="150px;"onmouseover="Display('ai');"></img>
+
+        </div>
+
+        <div id="divLanguage" style="width: 400; height: 200;"></div>
+
+        <div class="social-icons">
+
+                <a href="https://www.linkedin.com/in/tholeti-durgeswara-rao-92030827a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                <a href="https://www.facebook.com/share/wyUR1Y5ryk18BJis/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://x.com/tholeti8357?t=zWYXOkkRGGlLK89MLKm_gg&s=09"><i class="fa-brands fa-twitter"></i></a>
+
+        </div>         
+
+        
+
+    </section>
+
+
+
+</body>
+
+
+
+</html>
